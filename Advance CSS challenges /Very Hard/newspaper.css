@@ -1,0 +1,92 @@
+.Main {
+  max-width: 1280px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Main .Main__Box {
+  background-color: #aaa8a8;
+  padding: 20px;
+}
+.Main__Box--font {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 50px;
+}
+
+.Main__Box--font::before {
+  content: " ~ ";
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.Main__Box--font::after {
+  content: " ~ ";
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+.P-Text {
+  text-align: center;
+  padding: 10px;
+}
+
+.SubBox {
+  display: flex;
+}
+.SubBox img {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.SubBox--box {
+  position: absolute;
+  padding: 10px;
+  background-color: #2e2b2b;
+  color: white;
+}
+
+.LowerHeader {
+  max-width: 60%;
+}
+.LowerHeader h1 {
+  font-size: 65px;
+}
+
+.LowerBox {
+  display: flex;
+  height: 500px;
+  width: 100%;
+}
+
+.LowerBox__first {
+  display: flex;
+  flex-direction: row;
+}
+.LowerBox__first--left {
+  background: blue;
+  width: 384px;
+  margin-right: 10px;
+}
+.LowerBox__first--right {
+  background: red;
+  width: 384px;
+  flex: 2;
+}
+
+.LowerBox__Second {
+  width: 500px;
+  border-left: black solid 5px;
+  border-top: solid black 5px;
+  height: 700px;
+  position: absolute;
+  left: 800px;
+  top: 1000px;
+}
+
+.LowerBox__Second h1 {
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=newspaper.css.map */
