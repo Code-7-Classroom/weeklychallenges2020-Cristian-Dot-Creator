@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+  }
+
+
+
+
+.content div:nth-child(even) {
+    background: red;
+    height: 10px;
+    width: 1000px;
+    z-index: 1;
+    padding: 20px;
+    /* top | right | bottom | left */
+    margin:0;
+}
+
+
+
+
+.content div:nth-child(odd) {
+    background: white;
+    height: 10px;
+    width: 1000px;
+    z-index: 1;
+    padding: 20px;
+    margin:5px;
+}
+
+
+
+
+
+
+
