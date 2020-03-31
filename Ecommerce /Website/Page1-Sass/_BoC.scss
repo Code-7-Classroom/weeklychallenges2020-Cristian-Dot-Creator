@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+}
+
+.MakeBoxRoom {
+    height: 600px;
+    width: 100%;
+    background-image: url(/Images/skateboards-page-2-board.png);
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position:0px 36%;
+}
+
+.MakeBoxRoom2 {
+    background: #45A29E;
+    height: 400px;
+    width: 100%;
+
+
+    & h1 {
+        margin: 0;
+        color: white;
+        padding: 70px;
+        text-align: center;
+        font-size: 50px;
+        overflow-wrap: normal;
+
+    }
+    & p {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+.Boxes {
+    height: 800px;
+    display: flex;
+    width: 100%;
+    background: black;
+}
+
+.box {
+    flex-direction: row;
+    width: 20%;
+    border: solid white 3px;
+}
+
+.box {
+    filter: grayscale(100%);
+    transition: .3s;
+
+}
+
+.box:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    margin-top: -5px;
+}
+
+
+.box-1 {
+    background-image: url(https://images.unsplash.com/photo-1558388555-fc9b575b61e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=649&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -110px 50%;
+}
+
+.box-2 {
+    background-image: url(https://images.unsplash.com/photo-1537476102677-80bac0ab1d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position:-50px 50%;
+}
+
+.box-3 {
+    background-image: url(https://images.unsplash.com/photo-1541481488804-dd0ded1f3382?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=603&q=80);
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position:-100px 50%;
+}
+
+.box-4{
+    background-image: url(https://images.unsplash.com/photo-1580202120889-5dea088172da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80);
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position:0px 50%;
+}
+
+.box-5 {
+    background-image:url(https://images.unsplash.com/photo-1564947875845-d61f94655c5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=647&q=80);
+    background-size:cover;
+    background-repeat:no-repeat; 
+    background-position:-100px 50%;
+}
+
+
+
+
+
+.Filter-Section {
+    height: 300px;
+    width: 100%;
+    background-color: #1f2833;
+    border: solid lightblue 20px;
+    position:sticky;
+    top: 0;
+
+    & h2 {
+        font-family: 'Oxanium';
+        border-bottom: 1px solid #66fcf1 ;
+        width: 20%;
+        color: white;
+    }
+
+}
+
+.list {
+    color: white;
+}
+
+
+
+.MakeBoxRoom3 {
+    height: 900px;
+    width: 100%;
+    background-color:white ;
+}
