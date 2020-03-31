@@ -113,7 +113,7 @@ html {
 .MakeBoxRoom {
   height: 600px;
   width: 100%;
-  background-image: url(/Images/skateboards-page-2-board.png);
+  background-image: url(skateboards-page-2-board.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px 36%;
