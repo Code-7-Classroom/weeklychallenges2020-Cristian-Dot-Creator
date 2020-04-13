@@ -6,5 +6,5 @@ var me = {
     }
 }
 
-console.log(sayHi());
+console.log(me());
 
