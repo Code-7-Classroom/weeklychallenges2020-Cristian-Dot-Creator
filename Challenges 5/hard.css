@@ -1,0 +1,11 @@
+.button {
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+
+.red {
+    background: red;
+    color: white;
+}
