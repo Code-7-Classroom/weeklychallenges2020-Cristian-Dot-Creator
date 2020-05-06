@@ -1,0 +1,22 @@
+{
+  "name": "npmstuff",
+  "version": "1.2.3",
+  "description": "A few words",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-7-Classroom/weeklychallenges2020-Cristian-Dot-Creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Code-7-Classroom/weeklychallenges2020-Cristian-Dot-Creator/issues"
+  },
+  "homepage": "https://github.com/Code-7-Classroom/weeklychallenges2020-Cristian-Dot-Creator#readme"
+}
